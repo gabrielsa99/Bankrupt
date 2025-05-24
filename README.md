@@ -116,7 +116,9 @@ Padrões de Design
 **Resultados e Análise**
 
 Exemplo de Saída
+
 === RESULTADOS DA SIMULAÇÃO ===
+
 - Partidas terminadas por timeout: 23 (7.67%)
 - Média de rodadas/partida: 350.5
 - % de Vitórias:
@@ -127,14 +129,14 @@ Exemplo de Saída
 - Comportamento mais vencedor: Impulsivo
 Insights Obtidos
 
-Jogadores Impulsivos tendem a ter maior taxa de vitória
-Jogadores Aleatórios apresentam menor consistência
-Timeout é relativamente raro (< 10% das partidas)
-Duração média varia entre 300-400 rodadas
+*Jogadores Impulsivos* tendem a ter maior taxa de vitória
+*Jogadores Aleatórios* apresentam menor consistência
+*Timeout* é relativamente raro (< 10% das partidas)
+*Duração média* varia entre 300-400 rodadas
 
 **Como Executar**
 
-Pré-requisitos
+*Pré-requisitos*
 
 Java JDK 11+ instalado
 gameConfig.txt configurado corretamente
@@ -147,13 +149,13 @@ javac -d bin src/bankrupt/**/*.java
 
 java -cp bin bankrupt.Main
 
-Configuração Alternativa
+*Configuração Alternativa*
 
 Para teste rápido, use a versão simplificada em arquivo único:
 bashjavac BankruptSimulation.java
 java BankruptSimulation
 
-📁 Arquivos de Configuração
+ **Arquivos de Configuração**
 
 gameConfig.txt
 Arquivo contendo 20 linhas com configuração das propriedades, Exemplo:
@@ -164,23 +166,22 @@ Arquivo contendo 20 linhas com configuração das propriedades, Exemplo:
 
 Sistema de Logging
 
-Logging configurável para debug
-Acompanhamento em tempo real do progresso
-Relatórios detalhados de cada partida
+- Logging configurável para debug
+- Acompanhamento em tempo real do progresso
+- Relatórios detalhados de cada partida
 
 Coleta de Estatísticas
 
-Contadores automáticos de vitórias por tipo
-Cálculo preciso de médias e porcentagens
-Identificação automática do comportamento vencedor
+- Contadores automáticos de vitórias por tipo
+- Cálculo preciso de médias e porcentagens
+- Identificação automática do comportamento vencedor
 
 Tratamento de Erros
 
-Exceções personalizadas para diferentes tipos de erro
-Validação robusta de dados de entrada
-Recuperação graceful de erros durante a simulação
+- Exceções personalizadas para diferentes tipos de erro
+- Validação robusta de dados de entrada
 
-🧪 Testes e Validação
+**Testes e Validação**
 
 Cenários Testados:
 
@@ -216,22 +217,23 @@ Aspectos Técnicos
 - Randomização adequada para resultados confiáveis
 - Relatórios detalhados com insights acionáveis
 
-🏆 **Resultados do Desafio Acadêmico**
+**Resultados do Desafio Acadêmico**
 
 Objetivos Pedagógicos Atingidos
 
-✅ Programação Orientada a Objetos: Implementação completa com herança, polimorfismo e encapsulamento
-✅ Design Patterns: Strategy, Factory e Observer aplicados corretamente
-✅ Tratamento de Exceções: Sistema robusto com exceções personalizadas
-✅ Estrutura de Projeto: Organização profissional seguindo boas práticas
-✅ Análise de Dados: Coleta e processamento estatístico automatizado
+- Programação Orientada a Objetos: Implementação completa com herança, polimorfismo e encapsulamento
+- Design Patterns: Strategy, Factory e Observer aplicados corretamente
+- Tratamento de Exceções: Sistema robusto com exceções personalizadas
+- Estrutura de Projeto: Organização profissional seguindo boas práticas
+- Análise de Dados: Coleta e processamento estatístico automatizado
 
 **Competências Desenvolvidas**
 
-🎯 Análise de Requisitos: Interpretação precisa das especificações
-🔧 Arquitetura de Software: Design modular e extensível
-📊 Simulação de Sistemas: Modelagem de comportamentos complexos
-🧪 Validação e Testes: Garantia de qualidade do código
-📈 Interpretação de Resultados: Análise crítica dos dados coletados
+- Análise de Requisitos: Interpretação precisa das especificações
+- Arquitetura de Software: Design modular e extensível
+- Simulação de Sistemas: Modelagem de comportamentos complexos
+- Validação e Testes: Garantia de qualidade do código
+- Interpretação de Resultados: Análise crítica dos dados coletados
 
-Projeto desenvolvido como exercício acadêmico para demonstração de competências em Java e desenvolvimento de software.
+
+*Projeto desenvolvido como exercício acadêmico para demonstração de competências em Java e desenvolvimento de software.*
