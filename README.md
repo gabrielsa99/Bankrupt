@@ -1,4 +1,4 @@
-🎲 Simulação do Jogo Bankrupt
+# 🎲 Simulação do Jogo Bankrupt
 
 *Desafio Acadêmico* - Curso de Análise e Desenvolvimento de Sistemas - FATEC
 
@@ -8,7 +8,8 @@ Este projeto foi desenvolvido como desafio acadêmico da faculdade, implementand
 
 **Desafio Acadêmico**
 
-Objetivo do Exercício Universitário
+*Objetivo do Exercício Universitário*
+
 Disciplina: Programação Orientada a Objetos - JAVA
 Tema: Simulação de Sistemas e Análise Estatística
 
@@ -88,7 +89,7 @@ Pagamento de aluguel ao proprietário
 Eliminação por falência (saldo negativo)
 Limite de timeout (1.000 rodadas por partida)
 
- **Recursos Técnicos Implementados**
+ # Recursos Técnicos Implementados
 
 Validação e Robustez
 
@@ -134,7 +135,7 @@ Insights Obtidos
 *Timeout* é relativamente raro (< 10% das partidas)
 *Duração média* varia entre 300-400 rodadas
 
-**Como Executar**
+# Como Executar
 
 *Pré-requisitos*
 
@@ -145,7 +146,7 @@ Compilação e Execução
 bash# Compilar o projeto
 javac -d bin src/bankrupt/**/*.java
 
-# Executar a simulação
+**Executar a simulação**
 
 java -cp bin bankrupt.Main
 
